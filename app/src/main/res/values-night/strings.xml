@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_value_0">0</string>
+    <string name="bt_increment">+</string>
+    <string name="bt_decrement">-</string>
+    <string name="bt_reset">Reset</string>
+</resources>

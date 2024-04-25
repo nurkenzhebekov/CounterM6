@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_count_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/def_value_0"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/bt_increment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/bt_increment"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt_decrement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/bt_decrement"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/bt_reset"
+        android:textSize="20sp"/>
+
+</LinearLayout>
